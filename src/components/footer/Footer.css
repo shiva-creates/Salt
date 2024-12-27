@@ -1,0 +1,111 @@
+
+.nav-btn {
+  cursor: pointer;
+}
+
+.social-icon-list {
+  height: 1.5rem !important;
+}
+
+.my-4 {
+  color: #a9a9a9 !important;
+}
+
+.mb-1 {
+  color: #a9a9a9 !important;
+
+}
+
+.copyright-text {
+  color: #a9a9a9 !important;
+
+}
+
+.page-four {
+  height: 35vh;
+  background-color: #171819;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20vh;
+}
+
+.logo-info div,
+.contact-info div,
+.location-info div {
+  color: #9F9F9F;
+  font-size: 1.3rem;
+}
+
+.logo-info div:hover,
+.contact-info div:hover,
+.location-info div:hover {
+  color: white;
+}
+
+.contact-header {
+  color: white !important;
+  font-size: 2rem !important;
+}
+
+.contact-logo-img {
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.contact-social {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.2rem;
+}
+
+.social-img {
+  height: 25px;
+  opacity: 0.6;
+}
+
+.social-img:hover {
+  opacity: 1;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+@media (max-width: 1025px) {
+
+.logo-info div, .contact-info div, .location-info div {
+  color: #9F9F9F;
+  font-size: 1.2rem;
+}
+}
+
+
+@media (max-width: 768px) {
+
+  .logo-info div,
+  .contact-info div,
+  .location-info div {
+    color: #9F9F9F;
+    font-size: 0.8rem;
+  }
+
+  .contact-header {
+    color: white !important;
+    font-size: 1.5rem !important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .page-four {
+    height: 70vh;
+    background-color: #171819;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+}

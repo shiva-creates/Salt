@@ -1,0 +1,27 @@
+.loading-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000b0;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.img-container{
+    height: 200px;
+    width: 200px;
+    background: #cbcbcb;
+    background: #00ba4d;
+    background: #29ad60;
+    border-radius: 50%;
+}
+
+.loading-gif{
+    height: 200px;
+}

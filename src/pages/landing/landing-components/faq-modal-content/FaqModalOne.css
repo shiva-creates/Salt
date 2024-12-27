@@ -1,0 +1,129 @@
+
+.faq-accordion {
+    width: 100%;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .faq-accordion li {
+    list-style: none;
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
+  
+  .faq-accordion li label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #070239;
+    color: #070239;
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+  
+  label::after {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+  
+  .faq-checkbox input[type="checkbox"] {
+    display: none !important;
+  }
+  
+  .faq-accordion .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s, padding 0.4s;
+    border: none;
+  }
+  
+  .faq-accordion input[type="checkbox"]:checked + label + .content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+    /* border-top: 5px solid #eaeaf2; */
+  }
+  
+  .faq-accordion input[type="checkbox"]:checked + label::after {
+    content: '+';
+    transform: rotate(45deg);
+  }
+
+  .sub-info{
+    text-align: center;
+  }
+
+  .cards-two-inner-container{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  ul{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .reward-program-contianer{
+    margin-bottom: 4rem;
+  }
+
+  .un {
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(#000 0 0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s; /*change after the size immediately*/
+  }
+  
+  .props-one:hover .un {
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 2px;
+  }
+
+  @media (max-width: 1300px) {
+  }
+
+  @media (max-width: 1025px) {
+    .faq-text {
+      font-size: 1.5vw;
+    }
+
+    .faq-accordion li label {
+      font-size: 1.4vw;
+  }
+
+  }
+
+  @media (max-width: 768px) {
+    .faq-accordion li label {
+      font-size: 2vw;
+    
+    }
+  }
+
+@media (max-width: 600px) {
+  .faq-accordion li label {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+
+}

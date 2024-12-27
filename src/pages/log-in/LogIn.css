@@ -1,0 +1,76 @@
+.sign-up-container {
+    color: #070239;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sign-up-container h2 {
+    margin-bottom: 1rem;
+}
+
+.sign-up-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    color: #070239;
+}
+
+.form-group input {
+    padding: 0.8rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: #fcfcfc;
+    font-family: 'Poppins';
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2da568;
+}
+
+.submit-btn {
+    padding: 0.7rem;
+    background-color: #2da568;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.submit-btn:active {
+        background: #019a4b;
+        box-shadow: none;
+}
+
+.log-in-nav{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+
+.error-msg{
+color: #e53737;
+}

@@ -1,0 +1,448 @@
+.cart-container{
+    background: #eaeaf2;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #070239;
+}
+
+.cart-main-item-container{
+    width: 60%;
+}
+
+.cart-item-container{
+    display: flex;
+    padding: 1rem;
+    /* background: #ffffff; */
+    /* width: 100%; */
+    margin: 1.5rem;
+    /* border-radius: 20px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-bottom: 1px solid black;
+}
+
+.cart-img{
+    height: 15vw;
+    border-radius: 20px;
+}
+
+.cart-details-container{
+    margin-left: 1rem;
+}
+
+.item-name{
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: #070239; 
+    padding-top: 1.5rem;
+}
+
+.cart-item-desc{
+    color: rgb(144, 144, 144);  
+    font-size: 0.9vw;
+}
+
+
+.product-pricing{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.veg-logo{
+    height: 20px;
+}
+
+.price{
+    color: #019a4b;
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-right: 0.5rem;
+}
+
+.discounted-price{
+    color: #bdbdbd;
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-right: 0.5rem;
+    text-decoration: line-through;
+}
+
+.cart-size-section{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.cart-size-text{
+    color: #9a9a9a;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-right: 0.5rem;
+}
+
+.size-option-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.size-option{
+    padding: 0.4rem 1rem;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+}
+
+.size-option:hover{
+    background-color: #019a4b;
+
+}
+
+.quantity-option-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #888888;
+    border-radius: 20px;
+}
+
+.decrease{
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    /* margin: 0 0.5rem; */
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.increase{
+    padding: 0.25rem 0.65rem;
+    border-radius: 50%;
+    /* margin: 0 0.5rem;  */
+    cursor: pointer;
+    margin-left: 1rem;
+    user-select: none;
+}
+.decrease:hover{
+    background-color: rgb(218, 161, 161);
+}
+
+.increase:hover{
+    background-color: rgb(187, 222, 183);
+}
+
+.product-purchase-option{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.buy-now-btn{
+    padding: 0.7rem 2rem;
+    /* margin: 0.5rem; */
+    background: #019a4b;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+.cart-btn{
+    background-color: #242529;
+    padding: 0.7rem 2rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+    color: white;
+}
+.pricing-container{
+    width: 30%;
+    margin: 2rem;
+}
+.discount-option:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid black;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.discount-option{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    /* border-radius: 20px; */
+    font-weight: 700;
+    user-select: none;
+    cursor: pointer;
+    font-size: 0.9vw;
+}
+
+.discount-option-first-child{
+    border-top: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.discount-option-last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.option-dropdown:hover{
+    background: #b5e6b5;
+}
+
+.price-detail-name{
+    font-weight: 400 !important;
+
+}
+
+.biling-header{
+    padding: 1.5rem 0;
+}
+
+/* .place-order-btn{
+    padding: 1rem 0;
+    background-color: #019a4b;
+    margin: 1rem 0;
+    text-align: center;
+
+} */
+ .place-order-button-container{
+    display: flex;
+    justify-content: center;
+ }
+
+.place-order-button{
+    background-color: #019a4b;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    font-size: 0.9vw;
+}
+.place-order-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.custom-select {
+    /* min-width: 350px; */
+    position: relative;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    /* font-size: 1.15rem; */
+    padding: 0.5rem 1.8rem 0.5rem 0.5rem;
+    background-color: #eaeaf2;
+    border: 1px solid #888888;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Poppins';
+  }
+  
+  .custom-select::before,
+  .custom-select::after {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    pointer-events: none;
+    font-family: 'Poppins';
+
+  }
+  
+  .custom-select::before {
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-bottom: 0.3rem solid black;
+    top: 40%;
+  }
+  
+  .custom-select::after {
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-top: 0.3rem solid black;
+    top: 55%;
+  }
+
+  .item-quantity-section{
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .empty-cart-message {
+    padding: 2rem;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+@media (max-width: 1300px) {
+    .item-name {
+        font-weight: 700;
+        color: #070239;
+        padding-top: 0.5rem;
+    }
+
+    .cart-img {
+        height: 16vw;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .buy-now-btn, .cart-btn {
+        font-size: 0.9vw;
+    }
+    .cart-img {
+        height: 20vw;
+        border-radius: 20px;
+    }
+}
+
+  @media (max-width: 1025px) {
+
+    .cart-img {
+        height: 20vw;
+        border-radius: 20px;
+    }
+
+    .buy-now-btn {
+        font-size: 1.1vw;
+    }
+
+    .cart-btn {
+        font-size: 1.1vw;
+
+    }
+
+}
+
+@media (max-width: 990px) {
+    .cart-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-main-item-container {
+        width: 100%;
+        /* margin: 1rem; */
+    }
+
+    .pricing-container {
+        width: 96%;
+        margin: 2rem;
+    }
+
+    .place-order-button {
+        width: 55%;
+    }
+
+    .cart-img {
+        height: 22vw;
+    }
+
+}
+@media (max-width: 768px) {
+    .cart-img {
+        height: 20vh;
+        border-radius: 20px;
+    }
+    .buy-now-btn, .cart-btn {
+        font-size: 1.3vw;
+        padding: 0.5rem 1rem;
+    }
+
+    .quantity-option-container {
+        font-size: 1.6vw;
+    }
+
+    select {
+        padding: 0.4rem 1.8rem 0.4rem 0.4rem;
+        font-size: 1.6vw;
+    }
+
+    .discount-option {
+        font-size: 1.3vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-img {
+        /* height: 22vh; */
+        border-radius: 20px;
+    }
+
+    .cart-item-container {
+        display: flex;
+        padding: 0.5rem;
+        /* background: #ffffff; */
+        /* width: 60%; */
+        margin: 0.5rem;
+        /* border-radius: 20px; */
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        border-bottom: 1px solid black;
+    }
+
+    .item-name {
+        font-size: 1.8vw;
+        font-weight: 700;
+        color: #070239;
+        padding-top: 0.2rem;
+    }
+
+    .buy-now-btn, .cart-btn {
+        font-size: 1.3vw;
+        padding: 0.5rem 1rem !important;
+    }
+
+    .cart-item-desc {
+        color: rgb(144, 144, 144);
+        font-size: 1.4vw;
+    }
+    .veg-logo {
+        height: 10px;
+    }
+
+    .quantity-option-container {
+        font-size: 1.5vw;
+    }
+
+    select {
+        font-size: 1.5vw;
+    padding: 0.3rem 1.8rem 0.3rem 0.5rem;
+    }
+
+    .cart-size-text {
+        font-size: 1.4vw;
+    }
+
+    .cart-size-section {
+        padding: 0.2rem 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .discount-option {
+        font-size: 1.5vw;
+    }
+
+    .place-order-button {
+        font-size: 1.3vw;
+    }
+
+    .biling-header {
+        padding: 1rem 0;
+        font-size: 0.8rem;
+    }
+
+}

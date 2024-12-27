@@ -1,0 +1,48 @@
+.error-main-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000b0;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.error-container{
+    height: 30vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+.error-header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.error-header{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.error-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.warning-icon{
+    height: 2.2vw;
+    margin-right: 1rem;
+}

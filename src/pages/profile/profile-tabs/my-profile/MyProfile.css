@@ -1,0 +1,94 @@
+.my-profile-container{
+    margin: 1rem;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+}
+
+.avatar-container{
+}
+
+.avatar-img{
+    height: 115px;
+    padding: 1rem;
+}
+
+.profile-avatar-name{
+    font-size: 2vw;
+    padding: 0 1rem;
+}
+.email-container{
+    padding: 0.5rem 1rem;
+}
+.profile-header{
+    font-weight: 600;
+}
+
+.order-list-container{
+    margin: 1rem;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+}
+.order-history-header{
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.order-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    border: 10px;
+    margin: 1rem;
+    background: #e0e0e7;
+    border-radius: 20px;
+}
+
+.total-reward{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.profile-reward-badge{
+    height: 40px;
+    margin: 0 0.5rem;
+}
+
+
+.reward-txt{
+    color: #2da568;
+    font-weight: 600;
+}
+
+.rewards-container{
+    margin: 1rem;
+
+}
+
+.rewards-link{
+    margin-top: 1rem;
+}
+
+.reward-btn{
+    padding: 0.7rem 2rem;
+    /* margin: 0.5rem; */
+    background: #019a4b;
+    border-radius: 15px;
+    margin-right: 1rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    margin-top: 0.5rem;
+
+}
+
+.reward-btn:hover {
+    background: #03b559;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.reward-btn:active {
+    background: #019a4b;
+    box-shadow: none;
+}

@@ -1,0 +1,83 @@
+.log-in-modal-container{
+    color: #070239;
+}
+
+.log-in-header-container{
+    text-align: center;
+}
+
+.log-in-header{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.log-in-subheader{
+    font-size: 1.1vw;
+    /* font-weight: 600; */
+}
+
+.login-option-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-option{
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 60%;
+    margin: 1rem 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.log-in-logo-img{
+    height: 20px;
+    margin-right: 1rem;
+    
+}
+.log-in-option:hover{
+    background: #ededed;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+  @media (max-width: 1025px) {
+
+}
+
+  @media (max-width: 768px) {
+
+    .log-in-header {
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    .log-in-subheader {
+        font-size: 1.5vw;
+    }
+
+    .log-in-option {
+        font-size: 1.5vw;
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+

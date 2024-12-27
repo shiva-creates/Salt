@@ -1,0 +1,24 @@
+
+.steps-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    padding: 1rem;
+}
+
+.steps {
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+

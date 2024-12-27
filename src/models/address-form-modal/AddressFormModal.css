@@ -1,0 +1,8 @@
+.flex-container{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.flex-form-item{
+    width: 48%;
+}
